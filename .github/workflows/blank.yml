@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: My first automation
 
 # Controls when the workflow will run
 on:
@@ -34,5 +34,5 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          echo ${{ secrets.MY_NEW_SECRET }}
+          xecho ${{ secrets.MY_NEW_SECRET }}
       
